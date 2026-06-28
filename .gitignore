@@ -24,8 +24,10 @@ data/
 *.pth
 *.ckpt
 
-# Jupyter
-.ipynb_checkpoints/
+# Logs & output
+*.log
+*.out
+*.csv
 
 # OS
 .DS_Store
