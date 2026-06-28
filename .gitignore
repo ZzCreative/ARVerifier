@@ -1,40 +1,41 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
 *.egg-info/
 dist/
 build/
-*.egg
+*.so
+*.compiled
 
 # IDE
 .idea/
 .vscode/
-*.swp
-*.swo
 
-# Data files
-data/
-*.npy
-*.npz
-
-# Model weights
+# Data / Models / Results
 *.pt
 *.pth
-*.ckpt
-
-# Logs & output
+*.npy
+*.npz
+*.tar.gz
 *.log
 *.out
 *.csv
+*.txt
+data/
+datasets/
 
 # OS
 .DS_Store
-Thumbs.db
+*.swp
+*.swo
 
-# Environments
-.env
-venv/
-.venv/
-env/
+# Misc
+tmp/
+.trace_graph
+cachier/
+release/
+release_abcrown/
+verifier_log_*
+Verified_ret*.npy
+Verified-acc*.npy
+vnn-comp_*.npz
